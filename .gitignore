@@ -6,6 +6,7 @@ env/
 # Python cache
 __pycache__/
 *.py[cod]
+.pytest_cache/
 
 # Build / packaging artifacts
 *.egg-info/
@@ -23,6 +24,7 @@ uploads/
 # Environment variables
 .env
 .env.*
+myenv
 
 # OS
 .DS_Store
@@ -31,3 +33,4 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
